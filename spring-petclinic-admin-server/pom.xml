@@ -118,8 +118,7 @@
 								<configuration>
 									<executable>sh</executable>
 									<workingDirectory>${project.basedir}/target/</workingDirectory>
-									<commandlineArgs>${project.basedir}/target/dockercmd.sh
-										${project.artifactId} ${project.version} dockimg dennis123</commandlineArgs>
+									<commandlineArgs>${project.basedir}/target/dockercmd.sh	${project.artifactId} ${project.version} dockimg dennis123</commandlineArgs>
 								</configuration>
 							</execution>
 
